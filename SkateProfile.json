@@ -1,0 +1,90 @@
+{
+  "Name": "SKATE",
+  "DisplayName": "SKATE [PC]",
+  "DataVersion": 20250916,
+  "RegistryPath": "SOFTWARE\\Full Circle\\Skate",
+  "CacheName": "skate",
+  "Deobfuscator": "NullDeobfuscator",
+  "AssetLoader": "SkateAssetLoader",
+  "AssetCompiler": "SkateAssetCompiler",
+  "EditorScreen": "DefaultEditor",
+  "TextureImporter": "SkateTextureImporter",
+  "TextureExporter": "TextureExporter",
+  "EBXReader": "EbxReaderRiffByDescriptors",
+  "EBXWriter": "EbxWriter2023",
+  "EBXImporter": null,
+  "EBXExporter": null,
+
+  "ProjectEbxWriter": "EbxWriter2023",
+  "ProjectEbxReader": "EbxReader22B",
+
+
+  "Sources": [
+    {
+      "Path": "Patch",
+      "SubDirs": false
+    },
+    {
+      "Path": "Data",
+      "SubDirs": false
+    }
+  ],
+
+  // --------------------------------------------------------
+  // SDK Generating Info
+  //
+  "SDKFilename": "SkateSDK",
+  "SDKAOBScan": null,
+  "SDKClassesFile": null,
+  "SDKGeneratorClassInfoType": null,
+  "EBXTypeDescriptor": "EBXSharedTypeDescriptorV2",
+
+  // Supported Launcher Filetypes
+  "SupportedLauncherFileTypes": [],
+  // Will the Launcher support this Game?
+  "CanLaunchMods": false,
+  // Can this Application Edit this Game?
+  "CanEdit": true,
+
+  // Custom .cache file Writer - Write these exclusively (example - Madden22CacheWriter)
+  "CacheWriter": "SkateCacheWriter",
+  // Custom .cache file Reader - Write these exclusively (example - Madden22CacheReader)
+  "CacheReader": "SkateCacheReader",
+
+  "Banner": "",
+  "EbxVersion": 4,
+  "RequiresKey": true,
+  "MustAddChunks": false,
+  "EnableExecution": true,
+  "SharedBundles": {},
+  "IgnoredResTypes": [],
+  "CanImportMeshes": true,
+  "CanExportMeshes": true,
+  // GeometryDeclarationDesc stream count
+  "GDDMaxStreams": 16,
+  "CompressedFormatEBX": "Oodle",
+  "CompressedFormatRES": "Oodle",
+  "CompressedFormatChunk": "Oodle",
+  "CompressedFormatLegacy": "Oodle",
+  "LegacyFileManager": "ChunkFileManager2022",
+  "CanUseModData": false,
+  "ForceUseModData": false,
+  "SupportLowMemoryFootprint": true,
+  "GameIdentifier": 16115019,
+  "UseACBypass": false,
+  "EADesktopCommandLineSetting": "user.gamecommandline.origin.ofr.50.0005306",
+  "EADesktopCommandLineSettings": [
+    "user.gamecommandline.origin.ofr.50.0005306",
+    "user.gamecommandline.origin.ofr.50.0005157"
+  ],
+  "SteamId": "2195250",
+  "HasAntiCheat": true,
+  "Tools": {
+    "Internal": [],
+    "External": []
+  },
+  "MaxBufferSize": 262144,
+  "LauncherMessage": null,
+  "SDKGeneratesUsingExeStringDump": true
+
+}
