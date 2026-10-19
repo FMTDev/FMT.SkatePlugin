@@ -21,10 +21,6 @@
 
   "Sources": [
     {
-      "Path": "Patch",
-      "SubDirs": false
-    },
-    {
       "Path": "Data",
       "SubDirs": false
     }
@@ -33,11 +29,12 @@
   // --------------------------------------------------------
   // SDK Generating Info
   //
-  "SDKFilename": "SkateSDK",
+  "PluginNames": [ "FC26", "Skate" ],
+  "SDKFilename": "FC26SDK",
   "SDKAOBScan": null,
   "SDKClassesFile": null,
   "SDKGeneratorClassInfoType": null,
-  "EBXTypeDescriptor": "EBXSharedTypeDescriptorV2",
+  "EBXTypeDescriptor": null,
 
   // Supported Launcher Filetypes
   "SupportedLauncherFileTypes": [],
@@ -72,12 +69,7 @@
   "SupportLowMemoryFootprint": true,
   "GameIdentifier": 16115019,
   "UseACBypass": false,
-  "EADesktopCommandLineSetting": "user.gamecommandline.origin.ofr.50.0005306",
-  "EADesktopCommandLineSettings": [
-    "user.gamecommandline.origin.ofr.50.0005306",
-    "user.gamecommandline.origin.ofr.50.0005157"
-  ],
-  "SteamId": "2195250",
+  "SteamId": null,
   "HasAntiCheat": true,
   "Tools": {
     "Internal": [],
